@@ -17,13 +17,13 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:textSize="20sp"
-            android:text="Activity 2" />
+            android:text="Activity 1" />
 
         <Button
-            android:id="@+id/button_navigate_1"
+            android:id="@+id/button_navigate_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Navigate Activity 1" />
+            android:text="Navigate Activity 2" />
 
         <Button
             android:id="@+id/button_navigate_3"

@@ -1,11 +1,11 @@
-package avila.domingo.lifecycle.lifecycle
+package avila.domingo.lifecycle
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
 
 class LifecycleManager(
-    private val lifecycleObserver: Array<ILifecycleObserver>,
+    private val lifecycleObserver: Array<avila.domingo.domain.ILifecycleObserver>,
     lifecycle: Lifecycle
 ) : LifecycleObserver {
     init {
