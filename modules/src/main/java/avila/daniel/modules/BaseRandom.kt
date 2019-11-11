@@ -1,6 +1,5 @@
 package avila.daniel.modules
 
-import avila.domingo.domain.ILifecycleObserver
 import avila.domingo.domain.IRandom
 import io.reactivex.Observable
 

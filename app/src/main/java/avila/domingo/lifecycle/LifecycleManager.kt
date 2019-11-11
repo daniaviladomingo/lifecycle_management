@@ -3,9 +3,10 @@ package avila.domingo.lifecycle
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.OnLifecycleEvent
+import avila.daniel.modules.ILifecycleObserver
 
 class LifecycleManager(
-    private val lifecycleObserver: Array<avila.domingo.domain.ILifecycleObserver>,
+    private val lifecycleObserver: Array<ILifecycleObserver>,
     lifecycle: Lifecycle
 ) : LifecycleObserver {
     init {

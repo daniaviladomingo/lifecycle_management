@@ -1,4 +1,4 @@
-package avila.domingo.domain
+package avila.daniel.modules
 
 interface ILifecycleObserver {
     fun resume()
